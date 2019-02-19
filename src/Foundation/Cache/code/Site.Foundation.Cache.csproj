@@ -139,6 +139,7 @@
   <ItemGroup>
     <Compile Include="Media\AdaptiveMediaProvider.cs" />
     <Compile Include="Processor\ApplyVaryByPeronalizedDatasource.cs" />
+    <Compile Include="Processor\ApplyVaryByTimeout.cs" />
     <Compile Include="Processor\ApplyVaryByResolution.cs" />
     <Compile Include="Processor\ApplyVaryByRawUrlCaching.cs" />
     <Compile Include="Processor\ApplyVaryByUrlCaching.cs" />
