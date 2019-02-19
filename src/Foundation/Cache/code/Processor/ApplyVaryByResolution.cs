@@ -1,11 +1,8 @@
-﻿using Site.Foundation.Analytics.Media;
+﻿using System.Web;
+using Site.Foundation.Analytics.Media;
 using Sitecore.Mvc.Pipelines.Response.RenderRendering;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
-namespace Site.Foundation.Analytics.Processor
+namespace Site.Foundation.Cache.Processor
 {
     // Uses the adapative images package to pick up variation necessary for adapative images and cache combinations:
     // https://github.com/scottmulligan/SitecoreAdaptiveImages

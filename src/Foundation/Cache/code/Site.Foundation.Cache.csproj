@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Site.Foundation.Analytics</RootNamespace>
-    <AssemblyName>Site.Foundation.Analytics</AssemblyName>
+    <RootNamespace>Site.Foundation.Cache</RootNamespace>
+    <AssemblyName>Site.Foundation.Cache</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -142,6 +142,7 @@
     <Compile Include="Processor\ApplyVaryByTimeout.cs" />
     <Compile Include="Processor\ApplyVaryByResolution.cs" />
     <Compile Include="Processor\ApplyVaryByRawUrlCaching.cs" />
+    <Compile Include="Processor\ApplyVaryByWebsite.cs" />
     <Compile Include="Processor\ApplyVaryByUrlCaching.cs" />
   </ItemGroup>
   <PropertyGroup>

@@ -1,11 +1,8 @@
-﻿using Site.Foundation.Analytics.Media;
-using Sitecore.Mvc.Pipelines.Response.RenderRendering;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Web;
+using Sitecore.Mvc.Pipelines.Response.RenderRendering;
 
-namespace Site.Foundation.Analytics.Processor
+namespace Site.Foundation.Cache.Processor
 {
     // Credits: https://sitecoremaster.com/caching/customizing-html-caching-with-sitecore-with-mvc/
     public class ApplyVaryByTimeout : AddRecordedHtmlToCache

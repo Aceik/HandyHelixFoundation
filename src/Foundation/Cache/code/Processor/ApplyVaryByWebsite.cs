@@ -1,9 +1,10 @@
 ﻿using System.Web;
+using Sitecore;
 using Sitecore.Mvc.Pipelines.Response.RenderRendering;
 
 namespace Site.Foundation.Cache.Processor
 {
-	public class ApplyVaryByRawUrlCaching : RenderRenderingProcessor
+	public class ApplyVaryByWebsite : RenderRenderingProcessor
 	{
 		public override void Process(RenderRenderingArgs args)
 		{
@@ -14,9 +15,10 @@ namespace Site.Foundation.Cache.Processor
 
 			var renderingItem = args.Rendering.RenderingItem.InnerItem;
 
-			if (renderingItem["VaryByRawUrl"] != "1") return;
-                                                              
-			args.CacheKey += "_#rawurl:" + HttpContext.Current.Request.RawUrl;
+			if (renderingItem["VaryByWebsite"] != "1") return;
+
+			var currentItemId = Sitecore.Context.Site.Name.ToLower();
+			args.CacheKey += "_#site:" + currentItemId;
 		}
 	}
 }
