@@ -1,0 +1,7 @@
+﻿@using Site.Feature.Analytics
+@{
+    var mainDomain = Sitecore.Configuration.Settings.GetSetting("VRTP.Common.Sites.MainDomain");
+}
+
+@* Used by the Javascript to setup the XDB Group sites cookie *@
+<div id="multi-site-tracker" data-url="@mainDomain" data-local-cookie-name="@FeatureAnalyticsConstants.Cookies.LocalMultiSiteCookieName"></div>

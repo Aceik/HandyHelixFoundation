@@ -1,0 +1,23 @@
+﻿@inherits WebViewPage
+@using Site.Feature.Analytics.Helper
+@using Site.Feature.Analytics
+@{
+    Layout = null;
+    var domains = CrossSiteTrackingHelper.SetupIFrameSecurity();
+}
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/Scripts/MultiSiteCookie.js"></script>
+</head>
+<body data-safe-domains="@Html.Raw(domains)" data-global-cookie-name="@Html.Raw(FeatureAnalyticsConstants.Cookies.GlobalMultiSiteCookieName)">
+    <div style="display: none;">Google Client ID</div>
+</body>
+</html>
