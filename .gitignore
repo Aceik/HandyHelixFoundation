@@ -5,3 +5,8 @@
 /src/Foundation/Cache/code/bin
 /src/Foundation/Cache/code/obj
 /src/Foundation/Cache/code/Site.Foundation.Cache.csproj.user
+/src/Project/Common/code/bin
+/src/Project/Common/code/obj
+/src/Feature/Analytics/code/obj
+/src/Feature/Analytics/code/bin
+/src/Project/Common/code/Site.Common.Website.csproj.user
