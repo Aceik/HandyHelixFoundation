@@ -1,5 +1,5 @@
 // Derivative work from:  https://jabaremitchell.wordpress.com/2016/09/06/trigger-goals-in-sitecore-8-mvc-using-jquery-post-and-glassmapper/
-// Credit goes to: JABARE LANARD
+// Credit goes to JABARE LANARD for his original example. 
 // Many Thanks.
 
 using System;
