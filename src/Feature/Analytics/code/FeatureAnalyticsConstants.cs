@@ -9,5 +9,11 @@
             public static string GlobalMultiSiteCookieName => "GlobalCidCookie";
             public static string LocalMultiSiteCookieName => "LocalCidCookie";
         }
+
+        public struct Events
+        {
+            public static string UpdateGoogleCidLocal => "UpdateGoogleCidLocal";
+            public static string UpdateGoogleCidRemote => "UpdateGoogleCidRemote";
+        }
     }
 }

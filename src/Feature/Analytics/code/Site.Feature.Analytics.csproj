@@ -160,6 +160,7 @@
   <ItemGroup>
     <Compile Include="FeatureAnalyticsConstants.cs" />
     <Compile Include="Helper\CrossSiteTrackingHelper.cs" />
+    <Content Include="Controller\AnalyticsController.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
