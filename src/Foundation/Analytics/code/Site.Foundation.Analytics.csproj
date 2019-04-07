@@ -173,6 +173,7 @@
     <Content Include="App_Config\Include\zzz\Foundation.FXM.Pipelines.Tracking.TriggerPageEvent.RunRegisterPageEventProcessor.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Config\Include\Foundation\Foundation.Analytics.ProfilingPipeline.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
   </ItemGroup>
   <PropertyGroup>
