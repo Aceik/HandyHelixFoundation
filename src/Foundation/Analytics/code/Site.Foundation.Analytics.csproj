@@ -161,6 +161,7 @@
     <Compile Include="FoundationAnalyticsConstants.cs" />
     <Compile Include="Model\GoogleClientIdentifier.cs" />
     <Compile Include="Model\IGoogleClientIdentifier.cs" />
+    <Compile Include="Pipeline\PredefinePersonaPipeline.cs" />
     <Compile Include="Processor\RegisterPageEventProcessor.cs" />
     <Compile Include="Processor\SiteRunRegisterPageEventProcessor.cs" />
     <Compile Include="SaveAction\WFFMTriggerOutcome.cs" />
